@@ -224,6 +224,3 @@ if __name__=="__main__":
         ax.set_ylabel('y [m]')
         plt.axis('equal')
         plt.savefig(args.plot,format="pdf")
-
-
-        

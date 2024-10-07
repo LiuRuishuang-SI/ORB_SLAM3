@@ -126,5 +126,3 @@ if __name__ == '__main__':
     else:
         for a,b in matches:
             print("%f %s %f %s"%(a," ".join(first_list[a]),b-float(args.offset)," ".join(second_list[b])))
-            
-        
